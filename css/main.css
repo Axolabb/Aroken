@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    color: #ffffff;
+}
+body {
+    background-color: #181E34;
+    font-family: "Montserrat", Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ----------------------------HEADER--------------------------------*/
+.container_header {
+    height: 15vh;
+    padding: 4vh 45vh;
+    min-width: 50vh;
+    display: flex;
+    gap: 45vh;
+}
+.Logo {
+    cursor: pointer;
+    width: 7vh;
+}
+.header_list_block {
+    display: flex; 
+    align-items: center;
+}
+.header_list{
+    width: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.auth {
+    color: #2766AE;
+    background-color: #ffffff;
+    width: 15vh;
+    height: 6vh;
+    border-radius: 50px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.header_list_text {
+    cursor: pointer;
+}
+/* ----------------------------MAIN-TOP--------------------------------*/
+.container_main_all {
+    padding: 15vh 9vh;
+    height: 70vh;
+    background-size: cover;
+}
+.main_bg {
+    min-height: 70%;
+    min-width: 100%;
+    position: absolute;
+}
+.main_h1 {
+    font-size: 5vh;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.main_text_and_button {
+    padding: 10vh 35vh;
+    display: flex;
+}
+.main_text_block {
+    font-size: 2vh;
+    width: 60vh;
+    min-width: 35vh;
+    position: relative;
+}
+.main_text {
+    padding: 1vh;
+    line-height: 150%;
+}
+.main_button_block {
+    width: 65vh;  
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.main_button1 {
+    border-radius: 100px;
+    background: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+    width: 40vh;
+    height: 7vh;
+    display: flex;
+    text-align: end;
+    justify-content: center;
+    align-items: center;
+}
+.main_button2 {
+    border-radius: 100px;
+    background: linear-gradient(95deg, #00A4CC 6.7%, #2766AE 91.35%);
+    width: 40vh;
+    height: 7vh;
+    display: flex;
+    text-align: end;
+    justify-content: center;
+    align-items: center;
+}
+/* ----------------------------MAIN-DOWN--------------------------------*/
+.container_main_down {
+    padding: 15vh 25vh;
+}
+.down_h1_block {
+    display: flex;
+    justify-content: center;
+}
+.main_down_h1 {
+    font-size: 5vh;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.down_h1_text {
+    width: 55vh;
+    padding-top: 3vh;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.down_objects_block1 {
+    padding-top: 5vh;
+    gap: 3vh;
+    display: flex;
+    justify-content: center;
+}
+.down_objects_block2 {
+    gap: 3vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+}
+.down_object {
+    border-radius: 16px;
+    border: 2px solid #176BAE;
+    background: #197CB8;
+    width: 25vh;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 3vh 0vh;
+}
+.object_h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.object_text {
+    padding-top: 1vh ;
+    width: 25vh;
+    line-height: 150%;
+}
+.down_button {
+    border-radius: 100px;
+    background: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+    width: 40vh;
+    height: 7vh;
+    display: flex;
+    text-align: end;
+    justify-content: center;
+    align-items: center;
+}
+.down_button_block {
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+}
+/* ----------------------------FOOTER--------------------------------*/
+.container_footer {
+    height: 40vh;
+    border-top: 1px solid #323952;
+}
+.footer_block {
+    display: flex;
+    padding: 7vh 45vh;
+}
+.footer_logo_block {
+    width: 28vh;
+}
+.footer_text {
+    padding-top: 3vh;
+    line-height: 150%;
+}
+.footer_list_block {
+    display: flex;
+    width: 80vh;
+    padding-left: 35vh;
+}
+.footer_list_objects {
+    padding: 0vh 5vh;
+}
+.footer_list_h1 {
+    font-size: 3vh;
+    font-weight: 600;
+}
+.footer_list_text {
+    line-height: 250%;
+    cursor: pointer;
+}
+.footer_list_text_block {
+    padding-top: 3vh;
+}
